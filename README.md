@@ -72,5 +72,5 @@ export TURTLEBOT3_MODEL=burger
 ```
 roslaunch turtlebot_teleop turtlebot3 teleop key.launch
 ```
->Check the Turtlebot 3 online resource below: 
+Check the Turtlebot 3 online resource below:
 >http://emanual.robotis.com/docs/en/platform/turtlebot3/overview/
