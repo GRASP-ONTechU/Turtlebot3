@@ -1,15 +1,16 @@
 # Turtlebot3: Lab and Course Project
 
 ## Master Computer Setup (Laptop)
-### Bootable Disk
+*Bootable Disk*
 * Use ‘Part 2’ from this source to create the USB that contains a bootable version of Ubuntu 16.04
->https://www.wikihow.com/Dual-Boot-Windows-10-and-Ubuntu-16.04 
-### Disable UEFI Secure Boot
+>https://www.wikihow.com/Dual-Boot-Windows-10-and-Ubuntu-16.04
+
+*Disable UEFI Secure Boot*
 * Follow the following link 
 >https://itsfoss.com/disable-uefi-secure-boot-in-windows-8/ 
-* If you are unable to change the setting from ‘enable’ to ‘disable’, you may need to create a ### supervisor password (Common with Acer laptops)
+* If you are unable to change the setting from ‘enable’ to ‘disable’, you may need to create a supervisor password (Common with Acer laptops)
 * Follow (https://itsfoss.com/disable-secure-boot-in-acer/) 
-### Installing Ubuntu
+*Installing Ubuntu*
 * Follow from Step: 3 in the link
 https://itsfoss.com/install-ubuntu-1404-dual-boot-mode-windows-8-81-uefi/ 
 
@@ -18,7 +19,6 @@ https://itsfoss.com/install-ubuntu-1404-dual-boot-mode-windows-8-81-uefi/
 * Only create the ‘root’ and ‘swap area’ area parts
 
 ## TurtleBot 3 Setup (Raspberry Pi 3)
-
 ```Ctrl+alt+t``` brings up terminal window
 
 Use ```sudo``` in front of commands to act as administrator (especially when installing
@@ -47,7 +47,7 @@ video
 6.	Choose ```Finish```
 
 ## Test Run
-* [Laptop] 
+* [Laptop]
 ```
 roscore
 ``` 
