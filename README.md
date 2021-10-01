@@ -47,15 +47,15 @@ video
 6.	Choose ```Finish```
 
 ## Test Run
-* [Laptop]
+* **[Laptop]**
 ```
 roscore
 ``` 
-* [Raspberry Pi] 
+* **[Raspberry Pi]** 
 ```
 roslaunch turtlebot3_bringup turtlebot3_robot.launch
 ```
-* [Laptop] 
+* **[Laptop]** 
 ```
 export TURTLEBOT3_MODEL=burger
 ```
@@ -65,7 +65,7 @@ roslaunch turtlebot3_bringup turtlebot3_remote.launch
 ```
 rosrun rviz rviz -d ‘rospack find turtlebot3_description’ /rviz/demol.rviz
 ```
-* [Laptop]
+* **[Laptop]**
 ```
 export TURTLEBOT3_MODEL=burger
 ```
