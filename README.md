@@ -58,12 +58,18 @@ roslaunch turtlebot3_bringup turtlebot3_robot.launch
 * [Laptop] 
 ```
 export TURTLEBOT3_MODEL=burger
+```
+```
 roslaunch turtlebot3_bringup turtlebot3_remote.launch
+```
+```
 rosrun rviz rviz -d ‘rospack find turtlebot3_description’ /rviz/demol.rviz
 ```
 * [Laptop]
 ```
 export TURTLEBOT3_MODEL=burger
+```
+```
 roslaunch turtlebot_teleop turtlebot3 teleop key.launch
 ```
 >Check the Turtlebot 3 online resource below: 
